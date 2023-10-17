@@ -371,6 +371,18 @@ footer a:hover {
         font-size: 20px;
     }
 
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .my-name {
+        animation: big 2s linear forwards;
+
+    }
+
     .about-me-div,
     .education-work-div {
             max-width: 1000px;

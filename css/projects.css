@@ -86,6 +86,7 @@ main {
 
 .portfolio-div {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 1rem;
 }
@@ -244,6 +245,18 @@ footer a:hover {
 
     html {
         font-size: 20px;
+    }
+
+    .my-name {
+        animation: big 2s linear forwards;
+
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .card-btn {
