@@ -371,6 +371,10 @@ footer a:hover {
         font-size: 20px;
     }
 
+    .about-me-div,
+    .education-work-div {
+            max-width: 1000px;
+        }
 }
 
 /* extra large screen breakpoint */
@@ -387,10 +391,7 @@ footer a:hover {
         align-items: center;
     }
 
-    .about-me-div,
-    .education-work-div {
-        max-width: 65%;
-    }
+    
     .amberscript-logo {
         height: 2.5rem;
         opacity: 0.8;

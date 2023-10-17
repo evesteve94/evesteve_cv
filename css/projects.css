@@ -249,6 +249,11 @@ footer a:hover {
     .card-btn {
         font-size: 0.8rem;
     }
+    
+    .profile-div,
+    .portfolio-div {
+        max-width: 1000px;
+    }
 }
 
 /* extra large screen breakpoint */
@@ -265,10 +270,7 @@ footer a:hover {
         align-items: center;
     }
 
-    .profile-div,
-    .portfolio-div {
-        max-width: 65%;
-    }
+    
 
     p {
         font-size: 0.95rem;
