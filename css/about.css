@@ -127,14 +127,25 @@ main {
 
 .img-logos {
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.logos {
-    width: 4rem;
-    height: 4rem;
-    opacity: 0.8;
-    margin: 0.5rem 1rem;
+.eva-logo {
+    width: 25%;
+    height: 25%;
+    margin: 0.5rem 0.5rem;
+    border-radius: 5%;
 }
+
+.stevie-logo {
+    width: 20%;
+    height: 20%;
+    margin: 0.5rem 0.5rem;
+    border-radius: 50%;
+}
+
 .chas-logo,
 .mau-logo,
 .sandvik-logo,
