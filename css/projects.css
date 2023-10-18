@@ -41,6 +41,7 @@ header {
     text-decoration: none;
     display: block;
     font-size: 1.2rem;
+    z-index: 1;
   }
 
   .dropdown-content a:hover {
@@ -176,6 +177,8 @@ img {
     margin: 1rem 0;
 }
 
+
+
 /* FOOTER FOOTER FOOTER */
 footer {
     background-color: rgb(244, 179, 94);
@@ -295,10 +298,6 @@ footer a:hover {
         font-size: 20px;
     }
 
-    .my-name {
-        animation: big 2s linear forwards;
-
-    }
 
     main {
         display: flex;

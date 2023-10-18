@@ -440,10 +440,6 @@ footer a:hover {
         align-items: center;
     }
 
-    .my-name {
-        animation: big 2s linear forwards;
-
-    }
 
     .about-me-div,
     .education-work-div {
