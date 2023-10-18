@@ -5,3 +5,7 @@ This is my Cv website.
 It is almost fully funtional, apart from som dead buttons in the portfolio/projects sections. The buttons for projects CSS Grid & Java Joke will direct the user to small projects.
 
 The contact page's layout is almost done, but not funtional at all. I will update this with javascript later. 
+
+Unsure if dropdown menu works as expected in mobile view, aka if the hover pseudo class is the same as clicked. 
+
+The dropdown menu interferes with my main content on the projects/portfolio page, unsure how to fix this bug.
