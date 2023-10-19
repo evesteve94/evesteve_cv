@@ -53,10 +53,7 @@ h1, h2 {
 
 .item-1 {
     grid-area: one;
-    background-color: rgb(244, 179, 94);
-    background-image: url(img/background-2.jpg);
-    background-blend-mode: luminosity;   
-    background-size: cover; 
+    background-image: linear-gradient(to top, rgb(255, 136, 0) , rgb(255, 200, 0));
     color: white;
     justify-content: start;
     align-items: end;
@@ -105,10 +102,7 @@ h1, h2 {
 
 .item-8 {
     grid-area: ate;
-    background-color: rgb(244, 179, 94);
-    background-image: url(img/background-2.jpg);
-    background-blend-mode: luminosity;   
-    background-size: cover;    
+    background-image: linear-gradient(to top, rgb(255, 136, 0) , rgb(255, 200, 0));   
     color: white;
     justify-content: end;
     align-items: end;

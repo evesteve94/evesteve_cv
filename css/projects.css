@@ -255,8 +255,8 @@ footer a:hover {
     }
     
     .nav li a:hover {
-        background-color: rgb(255, 183, 0);
-        transition: 1s;
+        color: rgb(255, 183, 0);
+        background-color: white;
     }
     
     .my-name {

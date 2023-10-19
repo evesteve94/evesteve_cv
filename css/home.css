@@ -215,6 +215,7 @@ main {
     box-shadow: 0.2rem 0.2rem 0.2rem #B8A99A;
     letter-spacing: 0.1rem;
     
+    
 }
 
 .project-card h4 {
@@ -359,8 +360,8 @@ footer a:hover {
     }
     
     .nav li a:hover {
-        background-color: rgb(255, 183, 0);
-        transition: 1s;
+        color: rgb(255, 183, 0);
+        background-color: white;
     }
     
     .my-name {

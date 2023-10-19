@@ -127,6 +127,7 @@ main {
     border: 0.1rem solid rgb(255, 183, 0); 
 }
 
+
 .img-logos {
     width: 100%;
     display: flex;
@@ -393,8 +394,8 @@ footer a:hover {
     }
     
     .nav li a:hover {
-        background-color: rgb(255, 183, 0);
-        transition: 1s;
+        color: rgb(255, 183, 0);
+        background-color: white;
     }
     
     .my-name {
