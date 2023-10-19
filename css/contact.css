@@ -21,6 +21,10 @@ header {
     font-family: 'Bebas Neue', sans-serif;
 }
 
+.home-icon {
+    display: none;
+}
+
 .menu-icon {
     height: 1.5rem;
     width: 1.5rem;
@@ -245,6 +249,23 @@ footer a:hover {
         flex-direction: column;
     }
 
+    .home-icon {
+        display: block;
+        height: 6rem;
+        width: 6rem;
+        margin: 0;
+        position: absolute;
+        left: 1rem;
+        top: 1rem;
+        border: 0.2rem solid white;
+        border-radius: 20%;
+    }
+
+    .home-icon:hover {
+        background-color: rgb(244, 179, 94);
+    }
+
+
     .dropdown {
         display: none;
     }
@@ -318,12 +339,18 @@ footer a:hover {
 }
 
 /* extra large screen breakpoint */
-@media (min-width: 1200px) {
+@media (min-width: 1100px) {
     
     html {
         font-size: 20px;
     }
 
+    .home-icon {
+        position: sticky;
+        height: 8rem;
+        width: 8rem;
+        margin-bottom: 1rem;
+    }
     
 
 
