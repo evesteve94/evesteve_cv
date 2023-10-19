@@ -14,10 +14,7 @@ header {
     justify-content: center;
     align-items: center;
     padding: 1rem;
-    background-color: rgb(244, 179, 94);
-    background-image: url(images/background-2.jpg);
-    background-blend-mode: luminosity;
-    background-size: cover;    
+    background-image: linear-gradient(to top, rgb(255, 136, 0) , rgb(255, 200, 0));
     font-family: 'Bebas Neue', sans-serif;
 }
 
@@ -35,7 +32,7 @@ header {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: rgb(244, 179, 94);
+    background-color: rgb(255, 183, 0);
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
@@ -50,7 +47,7 @@ header {
 
   .dropdown-content a:hover {
     background-color: white;
-    color: rgb(244, 179, 94) ;
+    color: rgb(255, 183, 0) ;
   }
   
   .dropdown:hover .dropdown-content {
@@ -76,7 +73,7 @@ header {
 
 @keyframes big {
     0%  {
-        color: rgb(244, 179, 94);
+        color: rgb(255, 183, 0);
         transform: translateX(-100%);
     }
     50% {
@@ -92,6 +89,7 @@ main {
     margin: 0;
     padding: 1rem;
     background-color: #DFE0DF;
+    min-height: 85vh;
 }
 
 .profile-div {
@@ -120,7 +118,7 @@ main {
 .profile-picture h3 {
     font-family: 'Bebas Neue', sans-serif;
     font-size: 1.1rem;
-    background-color: rgb(244, 179, 94);
+    background-color: rgb(255, 183, 0);
     padding: 0;
     width: 83%;
     margin: 0;
@@ -152,7 +150,7 @@ main {
 }
 
 .about-me-button {
-    background-color: rgb(244, 179, 94);
+    background-color: rgb(255, 183, 0);
     color: white;
     font-size: 1rem;
     border-radius: 0.5rem;
@@ -164,9 +162,9 @@ main {
 }
 
 .about-me-button:hover {
-    color: rgb(244, 179, 94);
+    color: rgb(255, 183, 0);
     background-color: white;
-    border: 0.1rem solid rgb(244, 179, 94); 
+    border: 0.1rem solid rgb(255, 183, 0); 
 }
 
 .about-me h3 {
@@ -174,7 +172,7 @@ main {
     font-size: 1.75rem;
     font-weight: 100;
     margin: 0;
-    color: #CB8000;
+    color: orange;
     letter-spacing: 0.1rem;
 }
 
@@ -191,15 +189,14 @@ main {
     margin-top: 1rem;
     border-radius: 0.5rem;
     padding: 0.4rem;
-    color: white;
+    color: orange;
     font-family: 'Bebas Neue', sans-serif;
     font-size: 2rem;
     font-weight: 100;
     width: 100%;  
-    background-color: rgb(244, 179, 94);
-    background-image: url(images/background-2.jpg);
-    background-blend-mode: luminosity;
-    background-size: cover;
+    border-top: 0.2rem solid orange;
+    border-bottom: 0.2rem solid orange;
+    background-color: #FFF7EB;
     box-shadow: 0.2rem 0.2rem 0.2rem #B8A99A;    
 }
 
@@ -211,7 +208,7 @@ main {
     align-items: center;
     border-radius: 0.5rem;
     padding: 1rem;
-    color: #CB8000;
+    color: #514538;
     font-size: 1.5rem;
     font-family: 'Bebas Neue', sans-serif;
     background-color: #FFF7EB;
@@ -228,7 +225,7 @@ main {
     border-top: 0.1rem solid;
     border-bottom: 0.1rem solid;
     margin-bottom: 0.5rem;
-
+    color: orange;
 }
 
 .project-card:hover{
@@ -246,7 +243,7 @@ main {
 
 
 .card-btn {
-    background-color: rgb(244, 179, 94);
+    background-color: rgb(255, 183, 0);
     color: white;
     font-size: 1rem;
     font-family:'Roboto', sans-serif;
@@ -258,9 +255,9 @@ main {
 }
 
 .card-btn:hover {
-    color: rgb(244, 179, 94);
+    color: rgb(255, 183, 0);
     background-color: white;
-    border: 0.1rem solid rgb(244, 179, 94); 
+    border: 0.1rem solid rgb(255, 183, 0); 
 }
 
 
@@ -274,10 +271,7 @@ img {
 
 /* FOOTER FOOTER FOOTER */
 footer {
-    background-color: rgb(244, 179, 94);
-    background-image: url(images/background-2.jpg);
-    background-blend-mode: luminosity;
-    background-size: cover;    
+    background-image: linear-gradient(to bottom, rgb(255, 136, 0) , rgb(255, 200, 0));
     padding: 0.8rem;
     display: flex;
     justify-content: space-around;
@@ -324,7 +318,7 @@ footer a:hover {
     }
 
     .home-icon:hover {
-        background-color: rgb(244, 179, 94);
+        background-color: rgb(255, 183, 0);
     }
 
 
@@ -365,7 +359,7 @@ footer a:hover {
     }
     
     .nav li a:hover {
-        background-color: rgb(244, 179, 94);
+        background-color: rgb(255, 183, 0);
         transition: 1s;
     }
     
@@ -416,7 +410,7 @@ footer a:hover {
     main {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: start;
         align-items: center;
     }
     

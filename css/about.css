@@ -14,10 +14,7 @@ header {
     justify-content: center;
     align-items: center;
     padding: 1rem;
-    background-color: rgb(244, 179, 94);
-    background-image: url(images/background-2.jpg);
-    background-blend-mode: luminosity;
-    background-size: cover;    
+    background-image: linear-gradient(to top, rgb(255, 136, 0) , rgb(255, 200, 0));
     font-family: 'Bebas Neue', sans-serif;
 }
 
@@ -35,7 +32,7 @@ header {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: rgb(244, 179, 94);
+    background-color: rgb(255, 183, 0);
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
   }
@@ -50,7 +47,7 @@ header {
 
   .dropdown-content a:hover {
     background-color: white;
-    color: rgb(244, 179, 94) ;
+    color: rgb(255, 183, 0) ;
   }
   
   .dropdown:hover .dropdown-content {
@@ -75,7 +72,7 @@ header {
 
 @keyframes big {
     0%  {
-        color: rgb(244, 179, 94);
+        color: rgb(255, 183, 0);
         transform: translateX(-100%);
     }
     50% {
@@ -87,6 +84,7 @@ main {
     margin: 0;
     padding: 1rem;
     background-color: #DFE0DF;
+    min-height: 100vh;
 }
 
 .banner {
@@ -94,17 +92,15 @@ main {
     margin: 0;
     border-radius: 0.5rem;
     padding: 0.4rem;
-    color: white;
+    color: orange;
     font-family: 'Bebas Neue', sans-serif;
     font-size: 2rem;
     font-weight: 100;
     width: 100%;
-    background-color: rgb(244, 179, 94);
-    background-image: url(images/background-2.jpg);    
-    background-blend-mode: luminosity;
-    background-size: cover;
-    box-shadow: 0.2rem 0.2rem 0.2rem #B8A99A;
-    
+    border-top: 0.2rem solid orange;
+    border-bottom: 0.2rem solid orange;
+    background-color: #FFF7EB;
+    box-shadow: 0.2rem 0.2rem 0.2rem #B8A99A;   
 }
 
 .about-me-div{
@@ -114,7 +110,7 @@ main {
 }
 
 .contact-btn {
-    background-color: rgb(244, 179, 94);
+    background-color: rgb(255, 183, 0);
     color: white;
     font-size: 1rem;
     font-family:'Roboto', sans-serif;
@@ -126,9 +122,9 @@ main {
 }
 
 .contact-btn:hover {
-    color: rgb(244, 179, 94);
+    color: rgb(255, 183, 0);
     background-color: white;
-    border: 0.1rem solid rgb(244, 179, 94); 
+    border: 0.1rem solid rgb(255, 183, 0); 
 }
 
 .img-logos {
@@ -163,7 +159,7 @@ main {
 }
 
 .chas-logo {
-    background-color: #CB8000;
+    background-color: orange;
 }
 
 .amberscript-logo {
@@ -179,6 +175,7 @@ article {
     background-color: #FFF7EB;
     border-radius: 0.5rem;
     box-shadow: 0.2rem 0.2rem 0.2rem #B8A99A;
+    
 
 }
 
@@ -191,17 +188,17 @@ article {
 
 .education-work-div h3,
 .about-me h3{
-    color: #CB8000;
+    color: orange;
     font-family: 'Bebas Neue', sans-serif;
     font-size: 2rem;
     font-weight: 100;
     margin: 0;
-    border-top: 0.1rem solid #CB8000;
-    border-bottom: 0.1rem solid #CB8000;
+    border-top: 0.1rem solid orange;
+    border-bottom: 0.1rem solid orange;
 }
 
 .education-work-div h4{
-    color: #CB8000;
+    color: orange;
     font-family: 'Bebas Neue', sans-serif;
     font-size: 1.5rem;
     font-weight: 100;
@@ -251,7 +248,7 @@ p {
     display: flex;
     justify-content: space-between;
     padding: 0;
-    color: #CB8000;
+    color: orange;
     font-size: 1.5rem;
 }
 
@@ -309,10 +306,7 @@ p {
 
 /* FOOTER FOOTER FOOTER */
 footer {
-    background-color: rgb(244, 179, 94);
-    background-image: url(images/background-2.jpg);    
-    background-blend-mode: luminosity;
-    background-size: cover;    
+    background-image: linear-gradient(to bottom, rgb(255, 136, 0) , rgb(255, 200, 0));
     padding: 0.8rem;
     display: flex;
     justify-content: space-around;
@@ -359,7 +353,7 @@ footer a:hover {
     }
 
     .home-icon:hover {
-        background-color: rgb(244, 179, 94);
+        background-color: rgb(255, 183, 0);
     }
 
     .dropdown {
@@ -399,7 +393,7 @@ footer a:hover {
     }
     
     .nav li a:hover {
-        background-color: rgb(244, 179, 94);
+        background-color: rgb(255, 183, 0);
         transition: 1s;
     }
     
