@@ -54,6 +54,10 @@ header {
     display: block;
 }
 
+#about {
+    text-decoration: underline;
+}
+
 .nav {
     display: none;
 }
