@@ -1,0 +1,26 @@
+[
+    {
+        "image" : "./images/sandvik-blue.png",
+        "work" : "Forklift Driver",
+        "time" : "2019 - 2023",
+        "description" : "For the past four years I have been working part time as a forklift driver at a large warehouse in Svedala. There, I have learned how to perform under pressure and multitask with both physical and administrative tasks. I assisted and taught during the company's transition to SAP."
+    },
+    {
+        "image" : "./images/mau_en_logotype.svg",
+        "work" : "Research Assistant",
+        "time" : "2020 - 2021",
+        "description" : "I have worked with two PhD students at MAU as a research assistant, transcribing and translating interviews for studies relating to Ethnic Relations and Social Science. Thus far, it has been a great opportunity to familiarize myself with the early steps of research projects, in hopes of conducting my own someday."
+    },
+    {
+        "image" : "./images/amberscript.svg",
+        "work" : "Transcriber",
+        "time" : "2020 - 2021",
+        "description" : "Having worked freelance as a transcriber using AmberScript's own AI software, I have gained valuable skills in typing both quickly and efficiently. The job required me to be detail-oriented in regards typing and listening, and punctual concerning deadlines. Balaning this job alongside full-time studies and two other part-time jobs taught me flexibility and taking on assignments based on priority rankings."
+    },
+    {
+        "image" : "https://www.bidfood.co.uk/wp-content/themes/bidvest/images/bidfood_logo_scaled.png",
+        "work" : "Warehouse Manager",
+        "time" : "2017 - 2018",
+        "description" : "For roughly a year I was responsible for the chilled warehouse of a national hotel and restaurant food-supplier. Apart from training new staff and conducting daily quality and temperature controls, I was trusted to create my own working routines and systems for all the extensive daily, weekly, and monthly tasks within the chilled warehouse. This experience granted me completely new organizational and management skills that I carry with me today."
+    }
+]

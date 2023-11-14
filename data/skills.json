@@ -1,0 +1,55 @@
+[
+    {
+        "image" : "./images/tech.png",
+        "title" : "Tech Skills",
+        "skills" : [
+            "Language",
+            "Java",
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "levels" : [
+            "Level",
+            "3/5",
+            "4/5",
+            "4/5",
+            "3/5"
+        ]
+    } ,
+    {
+        "image" : "./images/work.png",
+        "title" : "Key Skills",
+        "skills" : [
+            "Skill Set",
+            "Leadership",
+            "Communication",
+            "Attention to detail",
+            "Team Work"
+        ],
+        "levels" : [
+            "Level",
+            "4/5",
+            "5/5",
+            "4/5",
+            "5/5"
+        ]
+    } ,
+    {
+        "image" : "./images/wheel.png",
+        "title" : "Other Merits",
+        "skills" : [
+            "Skills Set",
+            "Drivers License",
+            "Forklift License",
+            "Crane License"
+        ],
+        "levels" : [
+            "Year",
+            "2018",
+            "2017",
+            "2019"
+        ]
+    } 
+
+]
