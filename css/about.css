@@ -110,7 +110,8 @@ main {
 
 .banner:hover{
     cursor: pointer;
-    transform: scale(1.05);
+    transition: 0.4s;
+    transform: scale(1.03);
 }
 
 .about-me-div{
