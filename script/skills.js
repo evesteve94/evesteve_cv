@@ -42,6 +42,8 @@ async function getSkills(){
                 secondList.appendChild(levelItem);
             }
 
+            
+
             //append till bannern
             skillsDiv.appendChild(card);
             card.appendChild(cardImage);

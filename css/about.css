@@ -190,6 +190,10 @@ article {
     box-shadow: 0.2rem 0.2rem 0.2rem #B8A99A;
 }
 
+/* tar bort ful svart border på mina rubriker */
+button{
+    border: none;
+}
 
 .education-work-div,
 .work-div {
@@ -238,7 +242,7 @@ p {
     line-height: 1.5;
 }
 
-.about-me {
+.article {
     margin-bottom: 1rem;
 }
 
@@ -439,7 +443,7 @@ footer a:hover {
         align-items: center;
     }
 
-    .about-me,
+    .article,
     .me-banner {
         max-width: 70%;
     }
