@@ -1,7 +1,3 @@
-//skapa skills-div för att matcha css
-const refsDiv = document.createElement('div');
-refsDiv.classList.add('ref-card-div');
-educationWorkDiv.appendChild(refsDiv);
 
 //koppla till json-fil med async / await - get education function
 async function getReferences(){

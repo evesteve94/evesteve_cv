@@ -34,7 +34,7 @@ async function getWork(){
 
 
             //append till bannern
-            educationWorkDiv.appendChild(card);
+            workDiv.appendChild(card);
             card.appendChild(cardImage);
             card.appendChild(cardWork);
             card.appendChild(cardTime);

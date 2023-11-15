@@ -49,4 +49,8 @@ async function getEducation(){
     }
 }
 
+function removeEducation(){
+    
+}
+
 //getEducation();

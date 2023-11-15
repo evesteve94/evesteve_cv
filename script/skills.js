@@ -1,16 +1,8 @@
-//skapa skills-div för att matcha css
-const skillsDiv = document.createElement('div');
-skillsDiv.classList.add('skills-div');
-educationWorkDiv.appendChild(skillsDiv);
 
 //koppla till json-fil med async / await - get education function
 async function getSkills(){
     const response = await fetch('./data/skills.json');
     //console.log(response);
-    // const skillsBanner = document.createElement('h2');
-    // skillsBanner.classList.add('banner');
-    // skillsBanner.textContent = 's k i l l s';
-    // educationWorkDiv.appendChild(skillsBanner);
 
     if (response.ok){
         //hämta array
