@@ -49,8 +49,10 @@ async function getEducation(){
     }
 }
 
-function removeEducation(){
-    
-}
+//få till remove när bannern klickas igen :(
+
+// function removeEducation(){
+//     educationWorkDiv.removeChild(card);
+// }
 
 //getEducation();
