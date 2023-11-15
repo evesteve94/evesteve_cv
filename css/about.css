@@ -108,6 +108,11 @@ main {
     box-shadow: 0.2rem 0.2rem 0.2rem #B8A99A;   
 }
 
+.banner:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
 .about-me-div{
     display: flex;
     flex-direction: column;
