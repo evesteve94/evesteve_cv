@@ -2,11 +2,6 @@
 //koppla till json-fil med async / await - get education function
 async function getWork(){
     const response = await fetch('./data/work.json');
-    //console.log(response);
-    // const workBanner = document.createElement('h2');
-    // workBanner.classList.add('banner');
-    // workBanner.textContent = 'w o r k | e x p e r i e n c e';
-    // educationWorkDiv.appendChild(workBanner);
 
     if (response.ok){
         //hämta array
@@ -44,6 +39,11 @@ async function getWork(){
     } else {
         console.log(`HTTP error message: ${response.status}`)
     }
+}
+
+function removeWork(){
+    workDiv.innerHTML = '';
+    workDiv.appendChild(workBanner);
 }
 
 // getWork();

@@ -2,11 +2,6 @@
 //koppla till json-fil med async / await - get education function
 async function getReferences(){
     const response = await fetch('./data/references.json');
-    //console.log(response);
-    // const refBanner = document.createElement('h2');
-    // refBanner.classList.add('banner');
-    // refBanner.textContent = 'r e f e r e n c e s';
-    // educationWorkDiv.appendChild(refBanner);
 
     if (response.ok){
         //hämta array
@@ -48,6 +43,10 @@ async function getReferences(){
     } else {
         console.log(`HTTP error message: ${response.status}`)
     }
+}
+
+function removeReferences(){
+    refsDiv.innerHTML = '';
 }
 
 // getReferences();

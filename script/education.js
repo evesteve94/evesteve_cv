@@ -1,15 +1,7 @@
-//koppla till education-word-div
-// const educationWorkDiv = document.getElementById('education-work-div')
-//const educationBanner = document.getElementById('banner education-banner');
 
 //koppla till json-fil med async / await - get education function
 async function getEducation(){
     const response = await fetch('./data/education.json');
-    //console.log(response);
-    // const educationBanner = document.createElement('h2');
-    // educationBanner.classList.add('banner');
-    // educationBanner.textContent = 'e d u c a t i o n';
-    // educationWorkDiv.appendChild(educationBanner);
 
     if (response.ok){
         //hämta array
@@ -51,8 +43,9 @@ async function getEducation(){
 
 //få till remove när bannern klickas igen :(
 
-// function removeEducation(){
-//     educationWorkDiv.removeChild(card);
-// }
+function removeEducation(){
+    educationWorkDiv.innerHTML = '';
+    educationWorkDiv.appendChild(educationBanner);
+}
 
 //getEducation();

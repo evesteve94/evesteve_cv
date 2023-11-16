@@ -59,4 +59,8 @@ async function getSkills(){
     }
 }
 
+function removeSkills(){
+    skillsDiv.innerHTML = '';
+}
+
 // getSkills();
