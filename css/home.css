@@ -1,7 +1,9 @@
-
-* {
-    box-sizing: border-box;
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
 }
+
 
 body {
     margin: 0;
@@ -180,17 +182,18 @@ main {
     letter-spacing: 0.1rem;
 }
 
-.portfolio-div {
+/* .portfolio-div {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 1rem;
-}
+} */
 
 .banner {
     text-align: center;
     margin: 0;
     margin-top: 1rem;
+    margin-bottom: 1rem;
     border-radius: 0.5rem;
     padding: 0.4rem;
     color: orange;
@@ -204,8 +207,74 @@ main {
     box-shadow: 0.2rem 0.2rem 0.2rem #B8A99A;    
 }
 
+/* källa: https://codepen.io/ekeric13/pen/wKOwmg */
+.carousel {
+    position: relative;
+    width: 90%;
+    height: 370px; 
+    margin: 0 auto;
+    gap: 1rem;
+  }
+  
+  .carousel-content {
+    position: relative;
+    overflow: hidden;
+    transition: width .4s;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .slide {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    transition: left .4s cubic-bezier(.47,.13,.15,.89);
+  }
+  
+
+  .carousel-nav {
+    position: absolute;
+    top: 50%;
+    margin-top: -10px;
+    background-color: rgba(150,150,150,.3);
+    width: 20px;
+    height: 20px;
+    z-index: 2;
+    cursor: pointer;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    color: white;
+    -webkit-user-select: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: orange;
+  }
+  
+  .nav-left {
+    left: -25px;
+  }
+  
+  .nav-right {
+    right: -25px;
+  }
+  
+  .carousel-arrow-icon-left {
+    margin-left: 5px;
+    margin-top: 2px;
+  }
+  
+  .carousel-arrow-icon-right {
+    margin-left: 7px;
+    margin-top: 2px;
+  }
 .project-card {
-    width: 47%;
+    width: 95%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -217,9 +286,7 @@ main {
     font-family: 'Bebas Neue', sans-serif;
     background-color: #FFF7EB;
     box-shadow: 0.2rem 0.2rem 0.2rem #B8A99A;
-    letter-spacing: 0.1rem;
-    
-    
+    letter-spacing: 0.1rem;   
 }
 
 .project-card h4 {
@@ -233,10 +300,6 @@ main {
     color: orange;
 }
 
-.project-card:hover{
-    transition: 0.8s;
-    transform: scale(1.1);
-}
 
 .project-desc {
     font-family:'Roboto', sans-serif;
@@ -390,14 +453,22 @@ footer a:hover {
     }
 
     .project-card {
-        width: 23%;
+        width: 95%;
     }
 
     .card-3,
     .card-4 {
         margin: 0;
     }
-
+    .project-desc{
+        font-size: 0.8rem;
+      }
+    .project-card img {
+        width: 70%;
+    }
+    .project-card h4 {
+        font-size: 2rem;
+    }
 }
 
 /* desktop breakpoint */
@@ -420,9 +491,20 @@ footer a:hover {
     }
     
     .profile-div,
-    .portfolio-div {
+    .carousel,
+    .banner {
         max-width: 1000px;
     }
+
+    .carousel {
+        position: relative;
+        width: 90%;
+        height: 500px; 
+        margin: 0 auto;
+        gap: 1rem;
+      }
+
+
 }
 
 /* extra large screen breakpoint */
