@@ -70,9 +70,20 @@
           <div class="slide slide-1">
             <article class="project-card card-1">
                 <h4>Memory</h4>
-                <p class="project-desc">Classic game with an emoji-twist, coded vanilla in html, css and js!</p>
+                <p class="project-desc">Memory game designed in html, css and js vanilla!</p>
                 <img src="./images/brain.png" alt="brain logo">
-                <a class="card-btn" href="https://github.com/evesteve94/Memory-Expanded" target="_blank">INFO</a>
+
+                <button class="card-btn" id="openModalBtn">INFO</button>
+
+                <div id="myModal" class="modal">
+                    <div class="modal-content">
+                        <span id="closeModalBtn" class="close">&times;</span>
+                        <p>This is a project for Code Jam for Chas Academy's Fullstack Java Extended class of '23. The game is developed in 100% html, css and js vanilla and has four different modes of difficulty. It's super dumb. Check it out!</p>
+
+                        <a class="card-btn" href="https://github.com/evesteve94/Memory-Expanded" target="_blank">TAKE ME THERE!</a>
+
+                    </div>
+                </div>
             </article>
           </div>
           <div class="slide slide-2">
@@ -209,5 +220,6 @@
            
     </footer>
 <script src="./script/portfolio.js"></script>
+<script src="./script/modal-portfolio.js"></script>
 </body>
 </html>
