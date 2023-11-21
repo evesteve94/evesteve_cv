@@ -1,4 +1,5 @@
 // Hämtar infon från alla modal-element
+//In this example, I'm using the document.querySelectorAll method with the class selector (".modal") to select all elements with the class "modal". The openModalBtns and closeModalBtns are selected using attribute selectors that look for elements with IDs starting with "openModalBtn" and "closeModalBtn" respectively. The [id^='...'] in the attribute selector means "starts with." The loop then adds event listeners for each modal.
 const modals = document.querySelectorAll(".modal");
 const openModalBtns = document.querySelectorAll("[id^='openModalBtn']");
 const closeModalBtns = document.querySelectorAll("[id^='closeModalBtn']");
