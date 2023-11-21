@@ -1,4 +1,4 @@
-//koppla till conatiner
+//koppla till main
 const main = document.getElementById('main');
 
 //functionen är definerad i about-me.js

@@ -252,7 +252,6 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: orange;
   }
   
   .nav-left {
@@ -264,13 +263,13 @@ main {
   }
   
   .carousel-arrow-icon-left {
-    margin-left: 5px;
-    margin-top: 2px;
+    margin-right: 2px;
+    margin-bottom: 2px;
   }
   
   .carousel-arrow-icon-right {
-    margin-left: 7px;
-    margin-top: 2px;
+    margin-left: 3px;
+    margin-bottom: 2px;
   }
 .project-card {
     width: 95%;
