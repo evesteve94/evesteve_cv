@@ -17,7 +17,7 @@ function getAboutMe(){
     
     const evaImg = document.createElement('img');
     evaImg.classList.add('eva-logo');
-    evaImg.src = './images/profile-test-cropped.png';
+    evaImg.src = './images/profile-test-cropped.jpg';
     imgDiv.appendChild(evaImg);
     
     const stevieGrassImg = document.createElement('img');
