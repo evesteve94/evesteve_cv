@@ -252,6 +252,12 @@ main {
     justify-content: center;
     align-items: center;
   }
+
+  .carousel-nav:hover {
+    transform: scale(1.4);
+    transition: 0.5s;
+    color: rgb(255, 183, 0);
+  }
   
   .nav-left {
     left: -25px;
