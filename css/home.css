@@ -230,7 +230,7 @@ main {
     height: 100%;
     width: 100%;
     position: absolute;
-    z-index: 1;
+    /* z-index: 2; */
     transition: left .4s cubic-bezier(.47,.13,.15,.89);
   }
   
@@ -242,7 +242,7 @@ main {
     background-color: rgba(150,150,150,.3);
     width: 20px;
     height: 20px;
-    z-index: 2;
+    /* z-index: 3; */
     cursor: pointer;
     border-radius: 50%;
     border: none;
@@ -326,6 +326,25 @@ main {
     border: 0.1rem solid rgb(255, 183, 0); 
 }
 
+.inside-card-btn {
+    background-color: rgb(255, 183, 0);
+    color: white;
+    font-size: 1rem;
+    font-family:'Roboto', sans-serif;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    text-decoration: none;
+    text-align: center;
+    border: 0.1rem solid white; 
+}
+
+
+.inside-card-btn:hover {
+    color: rgb(255, 183, 0);
+    background-color: white;
+    border: 0.1rem solid rgb(255, 183, 0); 
+}
+
 
 img {
     width: 90%;
@@ -341,23 +360,21 @@ img {
 }
 
 .modal-showing{
-    display: flex;
-    flex-direction: column;
-    justify-content: baseline;
-    align-items: center;
+    display:block;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.612);
+    z-index: 100; 
 }
 
 .modal-content {
     background-color: #FFF7EB;
     margin: 15% auto;
     padding: 1rem;
-    width: 80%;
+    width: 60%;
     border-radius: 0.5rem;
     padding: 1rem;
     text-align: center;
