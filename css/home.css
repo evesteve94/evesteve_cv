@@ -572,6 +572,9 @@ footer a:hover {
         gap: 1rem;
       }
 
+      .modal-content {
+        width: 40%;
+      }
 
 }
 
