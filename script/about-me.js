@@ -38,6 +38,7 @@ function getAboutMe(){
     const contactBtn = document.createElement('a');
     contactBtn.classList.add('contact-btn');
     contactBtn.textContent = 'CONTACT ME';
+    contactBtn.href = "contact.html";
     aboutArticle.appendChild(contactBtn);
     
     aboutMeDiv.appendChild(aboutArticle);
