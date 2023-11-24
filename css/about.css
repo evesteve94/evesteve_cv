@@ -121,7 +121,7 @@ main {
 .about-me-div{
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    /* gap: 1rem; */
 }
 
 .contact-btn {
@@ -154,7 +154,7 @@ main {
     width: 35%;
     height: 35%;
     margin: 0.5rem 0.5rem;
-    /* margin-bottom: 1rem; */
+    margin-bottom: 1rem;
     border-radius: 5%;
 }
 
@@ -170,25 +170,6 @@ main {
     opacity: 0.8;
     margin-bottom: 0.5rem;
     
-}
-
-.chas-logo,
-.mau-logo,
-.sandvik-logo,
-.bidfood-logo{
-    height: 3rem;
-    opacity: 0.8;
-    margin-bottom: 0.5rem;
-}
-
-.chas-logo {
-    background-color: orange;
-}
-
-.amberscript-logo {
-    height: 3rem;
-    opacity: 0.8;
-    margin-bottom: 0.5rem;
 }
 
 article {
@@ -210,17 +191,8 @@ button{
 .work-div {
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    /* gap: 1rem; */
     width: 100%;
-}
-
-.skills-banner-div {
-    /* margin-top: 1rem; */
-    /* margin-bottom: 1rem; */
-}
-
-.education-work-div{
-    /* margin-bottom: 1rem; */
 }
 
 
@@ -234,8 +206,7 @@ h3{
     border-bottom: 0.1rem solid orange;
 }
 
-.education-work-div h4,
-.work-div h4{
+h4{
     color: orange;
     font-family: 'Bebas Neue', sans-serif;
     font-size: 1.5rem;
@@ -243,18 +214,10 @@ h3{
     margin: 0.5rem 0;
 }
 
-.ref-card-div {
-    /* margin-top: 1rem; */
-    margin-bottom: 1rem;
-}
 
 p {
     margin: 1.5rem 0;
     line-height: 1.5;
-}
-
-.article {
-    /* margin-bottom: 1rem; */
 }
 
 .card {
@@ -281,15 +244,6 @@ p {
     border-top: 0.1rem solid;
     border-bottom: 0.1rem solid;
     letter-spacing: 0.1rem;
-}
-
-
-.undertitle {
-    display: flex;
-    justify-content: space-between;
-    padding: 0;
-    color: orange;
-    font-size: 1.5rem;
 }
 
 .tech-lists {
