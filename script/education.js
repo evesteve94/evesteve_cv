@@ -41,11 +41,9 @@ async function getEducation(){
     }
 }
 
-//få till remove när bannern klickas igen :(
+//få till remove när bannern klickas igen 
 
 function removeEducation(){
     educationWorkDiv.innerHTML = '';
     educationWorkDiv.appendChild(educationBanner);
 }
-
-//getEducation();

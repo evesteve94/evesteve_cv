@@ -30,6 +30,7 @@ async function getSkills(){
             const firstList = document.createElement('ul');
             const secondList = document.createElement('ul');
 
+            //fyll på varje lista på vardera sida av kortet
             for (let i = 0; i < skill.skills.length; i++){
                 const skillItem = document.createElement('li');
                 skillItem.textContent = skill.skills[i];
@@ -41,8 +42,6 @@ async function getSkills(){
                 levelItem.textContent = skill.levels[i];
                 secondList.appendChild(levelItem);
             }
-
-            
 
             //append till bannern
             skillsDiv.appendChild(card);
@@ -63,4 +62,4 @@ function removeSkills(){
     skillsDiv.innerHTML = '';
 }
 
-// getSkills();
+

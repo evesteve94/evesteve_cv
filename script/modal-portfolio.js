@@ -1,13 +1,14 @@
-// Hämtar infon från alla modal-element
-//In this example, I'm using the document.querySelectorAll method with the class selector (".modal") to select all elements with the class "modal". The openModalBtns and closeModalBtns are selected using attribute selectors that look for elements with IDs starting with "openModalBtn" and "closeModalBtn" respectively. The [id^='...'] in the attribute selector means "starts with." The loop then adds event listeners for each modal.
+//hämtar ALLA modaler
 const modals = document.querySelectorAll(".modal");
+// hämtar alla öppna/stäng-knappar med attribut selektorer
+//[id^='...'] <-- hittar alla id som börjar med openModalBtn & closeModalBtn
 const openModalBtns = document.querySelectorAll("[id^='openModalBtn']");
 const closeModalBtns = document.querySelectorAll("[id^='closeModalBtn']");
 
-// Loop through each modal and add event listeners
+// loopar igenom varje modal och dess index (openModalBtn 1, 2, 3...) specificeras med [index]
 modals.forEach((modal, index) => {
-    const openModalBtn = openModalBtns[index];
-    const closeModalBtn = closeModalBtns[index];
+    const openModalBtn = openModalBtns[index]; //1, 2, 3...
+    const closeModalBtn = closeModalBtns[index]; //1, 2, 3...
 
     // visar modalen när knappen trycks -> ändrar class
     openModalBtn.onclick = function () {
@@ -22,9 +23,19 @@ modals.forEach((modal, index) => {
 
     // stänger när användaren klickar utanför modalen
     window.onclick = function (event) {
-        if (event.target == modal) {
+        if (event.target === modal) {
             modal.classList.remove("modal-showing");
             modal.classList.add("modal");
         }
     };
 });
+
+// stänger alla modaler när användaren klcikar utanför modalen
+window.onclick = function (event) {
+    modals.forEach((modal) => {
+        if (event.target === modal) {
+            modal.classList.remove("modal-showing");
+            modal.classList.add("modal");
+        }
+    });
+};

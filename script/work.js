@@ -46,4 +46,3 @@ function removeWork(){
     workDiv.appendChild(workBanner);
 }
 
-// getWork();

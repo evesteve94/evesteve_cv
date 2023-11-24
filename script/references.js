@@ -48,5 +48,3 @@ async function getReferences(){
 function removeReferences(){
     refsDiv.innerHTML = '';
 }
-
-// getReferences();
