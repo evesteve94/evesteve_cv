@@ -1,9 +1,19 @@
 Hello! 
 
-This is my Cv website. 
+This is my Cv website. Eva 'evesteve' Björling, GitHub: evesteve94
+Netlify link: https://evabjorling-cv.netlify.app/
 
-It is almost fully funtional, apart from som dead buttons in the portfolio/projects sections. The buttons for projects CSS Grid & Java Joke will direct the user to small projects.
+It is almost fully funtional, apart from som dead buttons in the portfolio/projects sections - all projects without titles.
 
-The contact page's layout is almost done, but not funtional at all. I will update this with javascript later. 
+Nearly all code HTML, CSS, JS and JSON are coded in vanilla. I've taken inspiration from many websites and AI chats online to find solutions to my modals on the index page. 
 
-Unsure if dropdown menu works as expected in mobile view, aka if the hover pseudo class is the same as clicked. 
+The carousel function in 'portfolio.js' is based on this code: https://codepen.io/ekeric13/pen/wKOwmg and the html and css portions are altered to fit my original design and styling. 
+
+To be fixed:
+The proprtions of the dropdown menu need to be fixed to better fit smaller screens.
+
+The contact page's layout is almost done, but not funtional at all. I will update this with javascript libraries later.
+
+Load all code for my projects through a script linked to a JSON containing all data --> keep the HTML clean.
+
+There is a gap between the skills and references banners on my resumé page that is not consistent to the layout! trying to figure out a solution. 
