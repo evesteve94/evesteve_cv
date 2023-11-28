@@ -10,7 +10,7 @@ async function getWork(){
         //forEach loop för att skapa och tillge värde till element
         works.forEach(function(work){
             //skapa element && ge klasser
-            const card = document.createElement('article');
+            const card = document.createElement('section');
             card.classList.add('card');
 
             const cardImage = document.createElement('img');

@@ -10,7 +10,7 @@ async function getReferences(){
         //forEach loop för att skapa och tillge värde till element
         refs.forEach(function(ref){
             //skapa element && ge klasser
-            const card = document.createElement('article');
+            const card = document.createElement('section');
             card.classList.add('ref-card');
 
             const cardImage = document.createElement('img');

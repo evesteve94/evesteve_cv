@@ -11,7 +11,7 @@ async function getSkills(){
         //forEach loop för att skapa och tillge värde till element
         skills.forEach(function(skill){
             //skapa element && ge klasser
-            const card = document.createElement('article');
+            const card = document.createElement('section');
             card.classList.add('card');
 
             const cardImage = document.createElement('img');

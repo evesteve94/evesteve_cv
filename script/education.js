@@ -10,7 +10,7 @@ async function getEducation(){
         //forEach loop för att skapa och tillge värde till element
         educations.forEach(function(education){
             //skapa element && ge klasser
-            const card = document.createElement('article');
+            const card = document.createElement('section');
             card.classList.add('card');
 
             const cardImage = document.createElement('img');
