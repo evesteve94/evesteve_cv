@@ -212,7 +212,7 @@ main {
 .carousel {
     position: relative;
     width: 90%;
-    height: 370px; 
+    height: 280px; 
     margin: 0 auto;
     gap: 1rem;
   }
@@ -228,7 +228,7 @@ main {
   }
   
   .slide {
-    height: 100%;
+    /* height: 100%; */
     width: 100%;
     position: absolute;
     /* z-index: 2; */
@@ -434,7 +434,7 @@ footer a:hover {
 
     main {
         max-width: 100%;
-        height: 100%;
+        /* height: 100%; */
         margin: 0 auto;
     }
 
@@ -521,6 +521,10 @@ footer a:hover {
         justify-content: space-evenly;
     }
 
+    .carousel {
+        height: 310px; 
+    }
+
     .project-card {
         width: 95%;
     }
@@ -568,7 +572,7 @@ footer a:hover {
     .carousel {
         position: relative;
         width: 90%;
-        height: 500px; 
+        height: 400px; 
         margin: 0 auto;
         gap: 1rem;
       }
