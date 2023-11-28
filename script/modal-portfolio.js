@@ -1,3 +1,5 @@
+//!!!!all javascript har jag skrivit själv, med hjälp från olika sidor och chat GPT!!!!!
+
 //hämtar ALLA modaler
 const modals = document.querySelectorAll(".modal");
 // hämtar alla öppna/stäng-knappar med attribut selektorer

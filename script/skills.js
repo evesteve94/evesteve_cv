@@ -7,7 +7,6 @@ async function getSkills(){
     if (response.ok){
         //hämta array
         const skills = await response.json();
-        console.log(skills);
 
         //forEach loop för att skapa och tillge värde till element
         skills.forEach(function(skill){

@@ -6,7 +6,6 @@ async function getReferences(){
     if (response.ok){
         //hämta array
         const refs = await response.json();
-        console.log(refs);
 
         //forEach loop för att skapa och tillge värde till element
         refs.forEach(function(ref){

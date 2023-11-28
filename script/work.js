@@ -6,7 +6,6 @@ async function getWork(){
     if (response.ok){
         //hämta array
         const works = await response.json();
-        console.log(works);
 
         //forEach loop för att skapa och tillge värde till element
         works.forEach(function(work){

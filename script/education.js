@@ -6,7 +6,6 @@ async function getEducation(){
     if (response.ok){
         //hämta array
         const educations = await response.json();
-        console.log(educations);
 
         //forEach loop för att skapa och tillge värde till element
         educations.forEach(function(education){
