@@ -392,8 +392,8 @@ img {
 
 .modal-content p {
     font-family:'Roboto', sans-serif;
-    letter-spacing: 0.05rem;
-    line-height: 1.3rem;
+    letter-spacing: normal;
+    line-height: 1.5;
     margin-bottom: 2rem;
 }
 
