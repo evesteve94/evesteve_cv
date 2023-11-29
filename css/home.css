@@ -381,26 +381,36 @@ img {
     background-color: #FFF7EB;
     margin: 15% auto;
     padding: 1rem;
-    width: 60%;
+    width: 70%;
     border-radius: 0.5rem;
     padding: 1rem;
     text-align: center;
     color: #514538;
-    font-size: 1.3rem;
-    
+    font-size: 1rem;
+}
+
+.modal-content p {
+    font-family:'Roboto', sans-serif;
+    letter-spacing: 0.05rem;
+    line-height: 1.3rem;
+    margin-bottom: 2rem;
+}
+
+.modal-content h4 {
+    font-size: 1.7rem;
 }
 
 .close {
     color: #aaa;
     float: right;
-    font-size: 28px;
+    font-size: 2rem;
     font-weight: bold;
     cursor: pointer;
 }
 
 .close:hover,
 .close:focus {
-    color: black;
+    color: rgb(255, 136, 0);
     text-decoration: none;
     cursor: pointer;
 }
