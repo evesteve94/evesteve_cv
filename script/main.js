@@ -1,3 +1,5 @@
+// ALLA GET/REMOVE FUNKTIONER ÄR DEFINERADE i education, work, references och skill.js
+
 //koppla till main
 const main = document.getElementById('main');
 
@@ -32,7 +34,7 @@ function clickHandlerEducation() {
 educationBanner.addEventListener('click', clickHandlerEducation);
 
 
-//work
+//****WORK**** */
 const workDiv = document.createElement('div');
 workDiv.classList.add('work-div');
 main.appendChild(workDiv);
@@ -57,7 +59,7 @@ function clickHandlerWork() {
 
 workBanner.addEventListener('click', clickHandlerWork);
 
-//skills
+//*****SKILLS***** */
 const skillsBanner = document.createElement('button');
 skillsBanner.classList.add('banner');
 skillsBanner.textContent = 's k i l l s';
@@ -90,7 +92,7 @@ function clickHandlerSkills() {
 skillsBanner.addEventListener('click', clickHandlerSkills);
 
 
-//references
+//*****REFERENCES***** */
 const refBanner = document.createElement('button');
 refBanner.classList.add('banner');
 refBanner.textContent = 'r e f e r e n c e s';

@@ -1,5 +1,5 @@
 
-//koppla till json-fil med async / await - get education function
+//koppla till json-fil med async / await - get work function
 async function getWork(){
     const response = await fetch('./data/work.json');
 

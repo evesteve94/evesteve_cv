@@ -1,5 +1,5 @@
 
-//koppla till json-fil med async / await - get education function
+//koppla till json-fil med async / await - get skills function
 async function getSkills(){
     const response = await fetch('./data/skills.json');
     //console.log(response);

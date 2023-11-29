@@ -1,5 +1,5 @@
 
-//koppla till json-fil med async / await - get education function
+//koppla till json-fil med async / await - get references function
 async function getReferences(){
     const response = await fetch('./data/references.json');
 
