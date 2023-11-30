@@ -36,6 +36,7 @@ async function getProjects(){
               <div class="modal-content">
                 <span id=closeModalBtn${projects.indexOf(project) + 1} class="close">&times;</span>
                 <h4>${project.modalTitle}</h4>
+                <a class="github" href="${project.gitHubLink}" target="_blank">GitHub Repo</a>
                 <p>${project.description}</p>
                 <a class="inside-card-btn" href="${project.link}" target="_blank">TAKE ME THERE!</a>
               </div>
