@@ -10,8 +10,6 @@ Nearly all code HTML, CSS, JS and JSON are coded in vanilla. I've taken inspirat
 The carousel function in 'portfolio.js' is based on this code: https://codepen.io/ekeric13/pen/wKOwmg and the html and css portions are altered to fit my original design and styling. 
 
 To be fixed:
-The proprtions of the dropdown menu need to be fixed to better fit smaller screens.
-
 The contact page's layout is almost done, but not funtional at all. I will update this with javascript libraries later.
 
 Load all code for my projects through a script linked to a JSON containing all data --> keep the HTML clean.
