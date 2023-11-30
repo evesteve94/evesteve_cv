@@ -7,11 +7,13 @@ It is almost fully funtional, apart from som dead buttons in the portfolio/proje
 
 Nearly all code HTML, CSS, JS and JSON are coded in vanilla. I've taken inspiration from many websites and AI chats online to find solutions to my modals on the index page. 
 
+All code for my portfolio page is loaded through a script linked to a JSON containing all data.
+
 The carousel function in 'portfolio.js' is based on this code: https://codepen.io/ekeric13/pen/wKOwmg and the html and css portions are altered to fit my original design and styling. 
 
 To be fixed:
 The contact page's layout is almost done, but not funtional at all. I will update this with javascript libraries later.
 
-Load all code for my projects through a script linked to a JSON containing all data --> keep the HTML clean.
+Apply the same script and JSON from my portfolio page to my index.html INSIDE the carousel --> keep the HTML clean. TRICKY to do.
 
 There is a gap between the skills and references banners on my resumé page that is not consistent to the layout! trying to figure out a solution. 
