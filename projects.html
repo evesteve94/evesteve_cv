@@ -41,63 +41,139 @@
 <!-- MAIN MAIN MAIN -->
     <main>
         
-        <div class="portfolio-div">
-            <section class="project-card card-1">
-                <h4>Memory</h4>
-                <p class="project-desc">Classic card game with an emoji-twist, coded 100% in html, css and js vanilla!</p>
-                <img loading="lazy" src="./images/brain.png" alt="brain logo">
-                <a class="card-btn" href="https://emojory-evesteve.netlify.app/" target="_blank">INFO</a>
-            </section>
+                <section class="project-card card-1">
+                    <h4>Memory</h4>
+                    <!-- <p class="project-desc">Memory game designed in html, css and js vanilla!</p> -->
+                    <img loading="lazy" src="./images/brain.png" alt="brain logo">
+                    <!-- modals egen design -->
+                    <button class="card-btn" id="openModalBtn1">INFO</button>
+    
+                    <div class="modal" id="myModal1">
+                        <div class="modal-content">
+                            <span id="closeModalBtn1" class="close">&times;</span>
+                            <h4>🧠 Memory 🧠</h4>
+                            <p>This is a project for Code Jam for Chas Academy's Fullstack Java Extended class of '23. The game is developed in 100% html, css and js vanilla and has four different modes of difficulty. It's super dumb. Check it out!</p>
+    
+                            <a class="inside-card-btn" href="https://emojory-evesteve.netlify.app/" target="_blank">TAKE ME THERE!</a>
+    
+                        </div>
+                    </div>
+                </section>
 
-            <section class="project-card card-2">
-                <h4>Java Joke</h4>
-                <p class="project-desc">Just a dumb Java Joke</p>
-                <img loading="lazy" src="./images/java.png" alt="java logo">
-                <a class="card-btn" target="_blank" href="java-joke/index.html">INFO</a>
-            </section>
 
-            <section class="project-card card-3">
-                <h4>Small Game</h4>
-                <p class="project-desc">Rock paper scissors created for Code Jam</p>
-                <img loading="lazy" src="./images/rock-paper-scissors.png" alt="rock paper scissors logo">
-                <a class="card-btn" target="_blank" href="https://rock-paper-scissors-evesteve.netlify.app/">INFO</a>
-            </section>
+                <section class="project-card card-2">
+                    <h4>Java Joke</h4>
+                    <!-- <p class="project-desc">Just a dumb Java Joke</p> -->
+                    <img loading="lazy" src="./images/java.png" alt="java logo">
+    
+                    <button class="card-btn" id="openModalBtn2">INFO</button>
+                    <div class="modal" id="myModal2">
+                        <div class="modal-content">
+                            <span id="closeModalBtn2" class="close">&times;</span>
+                            <h4>🪿 Java Joke 🪿</h4>
+                            <p>This is just a silly joke by a silly goose. Pay no attention to it. Best be on your way now.. close this window.</p>
+    
+                            <a class="inside-card-btn" target="_blank" href="java-joke/index.html">TAKE ME THERE!</a>
+                        </div>
+                    </div>
+                </section>          
 
-            <section class="project-card card-4">
-                <h4>CSS Grid</h4>
-                <p class="project-desc">A small CSS Grid project</p>
-                <img loading="lazy" src="./images/css.png" alt="css logo">
-                <a class="card-btn" href="grid-layout-project/index.html" target="_blank">INFO</a>
-            </section>
+                <section class="project-card card-3">
+                    <h4>Small Game</h4>
+                    <!-- <p class="project-desc">Rock paper scissors created for Code Jam</p> -->
+                    <img loading="lazy" src="./images/rock-paper-scissors.png" alt="rock paper scissors logo">
+    
+                    <button class="card-btn" id="openModalBtn3">INFO</button>
+                    <div class="modal" id="myModal3">
+                        <div class="modal-content">
+                            <span id="closeModalBtn3" class="close">&times;</span>
+                            <h4>🪨Rock, 🧻Paper, ✂️Scissors</h4>
+                            <p>This is another project from our Code Jam sessions. A simple rock, paper, scissors game coded 100% in vanilla html, css and javascript!</p>
+                            <a class="inside-card-btn" target="_blank" href="https://rock-paper-scissors-evesteve.netlify.app/">TAKE ME THERE!</a>
+                        </div>
+                     </div>
+                </section>          
 
-            <section class="project-card card-5">
-                <h4>Project #5</h4>
-                <p class="project-desc">To be continued</p>
-                <img loading="lazy" src="./images/icons8-question-100.png" alt="Question mark icon">
-                <a class="card-btn" href="#">INFO</a>
-            </section>
+                <section class="project-card card-4">
+                    <h4>CSS Grid</h4>
+                    <!-- <p class="project-desc">A small CSS Grid project</p> -->
+                    <img loading="lazy" src="./images/css.png" alt="css logo">
+    
+                    <button class="card-btn" id="openModalBtn4">INFO</button>
+                    <div class="modal" id="myModal4">
+                        <div class="modal-content">
+                            <span id="closeModalBtn4" class="close">&times;</span>
+                            <h4>🏁CSS Grid🏁</h4>
+                            <p>This is a small project to try Grid as a layout, working with responsitivity. The layout with change in laptop, tablet and mobile view. It's a small gallery of my dog Stevie.</p>
+    
+                            <a class="inside-card-btn" href="grid-layout-project/index.html" target="_blank">TAKE ME THERE!</a>
+                        </div>
+                    </div> 
+                </section>         
 
-            <section class="project-card card-6">
-                <h4>Project #6</h4>
-                <p class="project-desc">To be continued</p>
-                <img loading="lazy" src="./images/icons8-question-100.png" alt="Question mark icon">
-                <a class="card-btn" target="_blank" href="#">INFO</a>
-            </section>
-
-            <section class="project-card card-7">
-                <h4>Project #7</h4>
-                <p class="project-desc">To be continued</p>
-                <img loading="lazy" src="./images/icons8-question-100.png" alt="Question mark icon">
-                <a class="card-btn" href="#">INFO</a>
-            </section>
+                <section class="project-card card-5">
+                    <h4>Project #5</h4>
+                    <!-- <p class="project-desc">A small CSS Grid project</p> -->
+                    <img loading="lazy" src="./images/icons8-question-100.png" alt="css logo">
             
-            <section class="project-card card-8">
-                <h4>Project #8</h4>
-                <p class="project-desc">To be continued</p>
-                <img loading="lazy" src="./images/icons8-question-100.png" alt="Question mark icon">
-                <a class="card-btn" href="#" target="_blank">INFO</a>
-            </section>
-        </div>
+                    <button class="card-btn" id="openModalBtn5">INFO</button>
+                    <div class="modal" id="myModal5">
+                        <div class="modal-content">
+                            <span id="closeModalBtn5" class="close">&times;</span>
+                            <h4>❓Project #5❓</h4>
+                            <p>Nothing to see here yet. Come back when I'm wiser, more established, and have my life together</p>
+                            <a class="inside-card-btn" href="#" target="_blank">TAKE ME NOWHERE!</a>
+                        </div>       
+                    </div>
+                </section>
+
+                <section class="project-card card-6">
+                    <h4>Project #6</h4>
+                    <!-- <p class="project-desc">A small CSS Grid project</p> -->
+                    <img loading="lazy" src="./images/icons8-question-100.png" alt="css logo">
+            
+                    <button class="card-btn" id="openModalBtn6">INFO</button>
+                    <div class="modal" id="myModal6">
+                        <div class="modal-content">
+                            <span id="closeModalBtn6" class="close">&times;</span>
+                            <h4>❓Project #6❓</h4>
+                            <p>Nothing to see here yet. Come back when I'm wiser, more established, and have my life together</p>
+                            <a class="inside-card-btn" href="#" target="_blank">TAKE ME NOWHERE!</a>
+                        </div>       
+                    </div>
+                </section>
+
+                <section class="project-card card-7">
+                    <h4>Project #7</h4>
+                    <!-- <p class="project-desc">A small CSS Grid project</p> -->
+                    <img loading="lazy" src="./images/icons8-question-100.png" alt="css logo">
+            
+                    <button class="card-btn" id="openModalBtn7">INFO</button>
+                    <div class="modal" id="myModal7">
+                        <div class="modal-content">
+                            <span id="closeModalBtn7" class="close">&times;</span>
+                            <h4>❓Project #7❓</h4>
+                            <p>Nothing to see here yet. Come back when I'm wiser, more established, and have my life together</p>
+                            <a class="inside-card-btn" href="#" target="_blank">TAKE ME NOWHERE!</a>
+                        </div>       
+                    </div>
+                </section>
+
+                <section class="project-card card-8">
+                    <h4>Project #8</h4>
+                    <!-- <p class="project-desc">A small CSS Grid project</p> -->
+                    <img loading="lazy" src="./images/icons8-question-100.png" alt="css logo">
+            
+                    <button class="card-btn" id="openModalBtn8">INFO</button>
+                    <div class="modal" id="myModal8">
+                        <div class="modal-content">
+                            <span id="closeModalBtn8" class="close">&times;</span>
+                            <h4>❓Project #8❓</h4>
+                            <p>Nothing to see here yet. Come back when I'm wiser, more established, and have my life together</p>
+                            <a class="inside-card-btn" href="#" target="_blank">TAKE ME NOWHERE!</a>
+                        </div>       
+                    </div>
+                </section>
         
     </main>
 <!-- FOOTER FOOTER FOOTER -->
@@ -115,5 +191,6 @@
     </a>
        
 </footer>
+<script src="./script/modal-portfolio.js"></script>
 </body>
 </html>
