@@ -241,8 +241,8 @@ main {
     top: 50%;
     margin-top: -10px;
     background-color: rgba(150,150,150,.3);
-    width: 20px;
-    height: 20px;
+    width: 1.8rem;
+    height: 1.8rem;
     /* z-index: 3; */
     cursor: pointer;
     border-radius: 50%;
@@ -252,6 +252,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 1.5rem;
   }
 
   .carousel-nav:hover {
@@ -261,7 +262,7 @@ main {
   }
   
   .nav-left {
-    left: -25px;
+    left: -30px;
   }
   
   .nav-right {
@@ -588,6 +589,10 @@ footer a:hover {
         gap: 1rem;
       }
 
+      .nav-left {
+        left: -40px;
+      }    
+
       .modal-content {
         width: 35%;
       }
@@ -611,5 +616,8 @@ footer a:hover {
         width: 8rem;
         margin-bottom: 1rem;
     }
+    .nav-left {
+        left: -45px;
+      }    
 }
 
