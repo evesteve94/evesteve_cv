@@ -48,12 +48,12 @@
         "gitHubLink" : "https://github.com/evesteve94/club-mermaid-project.git"
     },
     {
-        "title" : "Project #7",
-        "image" : "./images/icons8-question-100.png",
-        "description" : "Nothing to see here yet. Come back when I'm wiser, more established, and have my life together",
-        "link" : "#",
-        "modalTitle" : "❓Project #7❓",
-        "gitHubLink" : "#"
+        "title" : "Loan Crunch",
+        "image" : "./images/loan.png",
+        "description" : "Small project coded 100% vanilla TypeScript. The user can calculate their morgage by entering loan amount, interest rate and loan period and then view a payment plan month-by-month.",
+        "link" : "https://morgage-calculator-evesteve.netlify.app/",
+        "modalTitle" : "🏠Loan Crunch🏠",
+        "gitHubLink" : "https://github.com/evesteve94/morgage-calculator"
     },
     {
         "title" : "Project #8",
