@@ -10,6 +10,23 @@
 
   gtag('config', 'G-DRE21425SG');
 </script>
+<script>
+    // Function to track clicks on the "RESUMÉ" link
+    function trackResumeClick() {
+      gtag('event', 'click', {
+        'event_category': 'Resume',
+        'event_label': 'Resume Clicked'
+      });
+    }
+  
+    // Add click event listener to the "RESUMÉ" link
+    document.addEventListener('DOMContentLoaded', function() {
+      var resumeLink = document.querySelector('.about-me-button');
+      if (resumeLink) {
+        resumeLink.addEventListener('click', trackResumeClick);
+      }
+    });
+  </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Homepage of Eva Björling, a future Fullstack JavaScript developer and student at Chas Academy">
