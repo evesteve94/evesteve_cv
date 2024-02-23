@@ -56,12 +56,12 @@
         "gitHubLink" : "https://github.com/evesteve94/morgage-calculator"
     },
     {
-        "title" : "Project #8",
-        "image" : "./images/icons8-question-100.png",
-        "description" : "Nothing to see here yet. Come back when I'm wiser, more established, and have my life together",
-        "link" : "#",
-        "modalTitle" : "❓Project #8❓",
-        "gitHubLink" : "#"
+        "title" : "Quire",
+        "image" : "./images/notebook.png",
+        "description" : "As part of an Agile Working Methods course, my team and I developed an online text editor. I was responisible for most of the functionality, particulary the dynamicSave() function and updating the saved notes to localStorage. Through this project I learned how to work remotely with a group, merge and solve conflicts in git and GitHub, and develope larger programs with TypeScript, all in vanilla!",
+        "link" : "https://quireteammalmo.netlify.app/",
+        "modalTitle" : "📓Quire📓",
+        "gitHubLink" : "https://github.com/carstern/quireproject"
     }
 
   ]
