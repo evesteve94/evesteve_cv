@@ -188,8 +188,8 @@ img {
     display: none;
 }
 
-.modal-showing{
-    display:block;
+.modal-showing {
+    display: block;
     position: fixed;
     top: 0;
     left: 0;
@@ -201,8 +201,10 @@ img {
 
 .modal-content {
     background-color: #FFF7EB;
-    margin: 15% auto;
-    padding: 1rem;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     width: 70%;
     max-width: 400px;
     border-radius: 0.5rem;
@@ -213,7 +215,7 @@ img {
 }
 
 .modal-content p {
-    font-family:'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
     letter-spacing: normal;
     line-height: 1.5;
     margin-bottom: 2rem;
@@ -225,7 +227,9 @@ img {
 
 .close {
     color: #aaa;
-    float: right;
+    position: absolute;
+    top: 0;
+    right: 0;
     font-size: 2rem;
     font-weight: bold;
     cursor: pointer;
@@ -237,6 +241,7 @@ img {
     text-decoration: none;
     cursor: pointer;
 }
+
 
 
 /* FOOTER FOOTER FOOTER */
